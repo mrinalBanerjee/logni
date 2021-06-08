@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #6937e1;
+}
+.box{
+    width: 320px;
+    height: 350px;
+    background-color: #123;
+    border-radius: 20px;
+}
+h1{
+    font-family:  "sans";   
+color: #fff;
+text-transform: uppercase;
+text-align: center;
+}
+
+.username input {
+    border:3px #2a3b57 solid ;
+    border-radius: 55px;
+    text-align: center;
+    font-family: "sans";
+    width: 170px;
+    height: 27px;
+    font-size: 1.2em;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+.password input{    
+    border:3px #2a3b57 solid ;
+    border-radius: 55px;
+    text-align: center;
+    font-family: "sans";
+    width: 170px;
+    height: 27px;
+    font-size: 1.2em;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    text-transform: uppercase;
+}
+::placeholder{
+    color: #fff;
+}
+.username input:hover{
+    width: 220px;
+    transition: .5s ease-in-out;
+    border: 3px #fa8076 solid;
+}
+.password input:hover{
+    width: 220px;
+    transition: .5s ease-in-out;
+    border: 3px #fa8076 solid;
+}
+button{
+    width: 120px;
+    height: 30px;
+    border-radius: 40px;
+    border:solid ;
+    background: transparent;
+    color: #fff;
+    font-family: "sans";
+    text-transform: uppercase;
+}
+button:hover{
+cursor: pointer;
+    transition: .5s ease-in-out;
+    border: 3px #fa8076 solid;
+}
